@@ -1,0 +1,40 @@
+name: gwas_enformer_epiagent
+channels:
+  - conda-forge
+  - bioconda
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - notebook
+  - jupyterlab
+  - pyfaidx
+  - pysam
+  - bedtools
+  - plink
+  - scanpy
+  - anndata
+  - pytorch>=2.0.0
+  - torchvision
+  - torchaudio
+  - pip:
+    - tensorflow>=2.13.0
+    - tensorflow-hub
+    - episcanpy
+    - epiagent>=0.0.3
+    - transformers
+    - POT>=0.9.2
+    - faiss-cpu
+    - flash-attn>=2.5.7
+    - requests
+    - biopython
+    - plotly
+    - kaleido
