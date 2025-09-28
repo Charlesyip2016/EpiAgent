@@ -1,0 +1,61 @@
+# Data files
+data/raw/
+data/processed/
+data/results/
+*.h5ad
+*.h5
+*.fasta
+*.fa
+*.bed
+*.tsv
+*.csv
+
+# Large model files
+model/
+*.pth
+*.pkl
+*.joblib
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# Logs
+*.log
+workflow.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Conda environment
+conda-meta/
+lib/
+include/
+bin/
+share/
+pyvenv.cfg
